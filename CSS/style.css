@@ -1,3 +1,30 @@
+@font-face {
+    font-family: Merriweather;
+    src: url('./font/Merriweather-Regular.ttf');
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url('./font/Merriweather-Bold.ttf');
+    font-weight: bold;
+}
+
+* {
+    font-family: Merriweather;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mt-4 {
+    margin-top: 16px;
+}
+
+.sub-hero {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
